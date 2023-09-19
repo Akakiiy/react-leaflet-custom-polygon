@@ -1,0 +1,71 @@
+.root {
+  padding-bottom: 0.5rem;
+  border-bottom: 0.2px solid #858585;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  color: #fff;
+  font-family: Helvetica,serif;
+  border-radius: 5px;
+  transition: background-color .2s;
+  &Active {
+    background-color: #616161;
+  }
+  &:hover {
+    background-color: #616161;
+  }
+}
+.canvasRef {
+  display: flex;
+  flex-direction: row;
+}
+.trash {
+  padding: 3px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.geo {
+  padding-left: 3px;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+.edit {
+  padding: 3px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.geoDiv {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.nameDiv {
+  display: flex;
+  flex-direction: row;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding-bottom: 10px;
+  color: #fff;
+  font-family: Helvetica,serif;
+}
+.title {
+  color: white;
+  font-family: Helvetica,serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+.culture {
+  color: #848484;
+  font-family: Helvetica,serif;
+  font-size: 14px;
+}

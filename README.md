@@ -1,46 +1,13 @@
-# Getting Started with Create React App
+# Мини-проект для настройки и отображения кастомных полигонов в Leaflet
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Этот мини-проект предоставляет настраиваемый метод для работы с отрисовкой кастомных полигонов на карте Leaflet. Он также включает в себя возможности:
 
-## Available Scripts
+1. Настройки цвета и прозрачности отрисовываемого полигона.
+2. Пользовательское меню при нажатии на точку полигона.
+3. Кастомизация иконок вершин полигона, включая поддержку функции перетаскивания (DnD - Drag and Drop).
+4. Настраиваемые мнимые (виртуальные) линии для выделения полигонов.
+5. Возможность задать внутренний контур (внутренние грани) при редактировании полигона.
 
-In the project directory, you can run:
+Этот проект предоставляет инструмент для создания интерактивных и кастомных полигонов на карте Leaflet и может быть полезен для решения различных географических задач.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+![custop-polygon-leaflet](https://github.com/Akakiiy/custom-polygons-leaflet/assets/109937068/6d722a52-654b-40a1-84a8-5f8ec3b7e247)

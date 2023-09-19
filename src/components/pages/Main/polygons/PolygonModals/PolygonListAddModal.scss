@@ -1,0 +1,88 @@
+.polygonListAddModal {
+  .ant-modal {
+    &-content {
+      border: 1px solid #858585;
+      background-color: #2c2c2c;
+    }
+
+    &-title {
+      color: #929292;
+    }
+
+    &-header {
+      background-color: inherit;
+      padding: 3px;
+      border-radius: 0;
+    }
+
+    &-close-x {
+      color: #929292;
+      transition: color .3s;
+      &:hover {
+        color: #ffffff;
+      }
+    }
+
+    &-body {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      color: #929292;
+      .ant-input {
+        border: 1px solid #858585;
+        color: #ffffff;
+        background-color: #565656;
+        &::-moz-placeholder { color: rgba(255, 255, 255, 0.3); }
+        &::-webkit-input-placeholder { color: rgba(255, 255, 255, 0.3); }
+      }
+    }
+  }
+
+  .ant-btn {
+    border: 1px solid #858585;
+    color: #929292;
+    background-color: #565656;
+    transition: background-color, color .3s;
+
+    &:hover {
+      color: #ffffff;
+      border: 1px solid #858585;
+      background-color: #858585;
+    }
+  }
+
+  .compact-picker {
+    background-color: #565656;
+    width: 300px !important;
+    border: 1px solid #858585;
+    input {
+      color: #ffffff !important;
+    }
+  }
+  .ant-select-selector {
+    border: 1px solid #858585 !important;
+    background-color: #565656 !important;
+    .ant-select-arrow {
+      color: #ffffff !important;
+    }
+  }
+}
+.polygonListAddModalSelect {
+  border: 1px solid #858585 !important;
+  background-color: #565656 !important;
+  &-textDiv {
+    color: #ffffff;
+    transition: all .3s;
+    .mini-line {
+      width: 0;
+      height: 1px;
+      border-bottom: 1px solid #ffffff;
+      transition: width .3s;
+    }
+    &:hover {
+      .mini-line {
+        width: 100%;
+      }
+    }
+  }
+}

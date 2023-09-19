@@ -1,0 +1,91 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 310px;
+  padding: 1px;
+  background-color: #352F44;
+  border-width: 0.5px;
+  max-height: 100vh;
+  scrollbar-width: none; /* hide the scrollbar in Firefox */
+  -ms-overflow-style: none; /* hide the scrollbar in Edge and IE */
+
+  &::-webkit-scrollbar {
+    width: 0.5rem; /* set the width of the scrollbar */
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #352F44; /* set the color of the track */
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #352F44; /* set the color of the thumb */
+  }
+}
+
+.header {
+  border-radius: 3px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 0.2px solid #858585;
+  padding-bottom: 0.3rem;
+
+  &Count {
+    margin-top: .5em;
+    color: #fff;
+    font-family: Helvetica, serif;
+    text-align: center;
+    font-size: 0.78rem;
+  }
+}
+
+.image {
+  cursor: pointer;
+  height: 20px;
+
+  padding: 5px;
+  width: 35px;
+
+  border-color: #303030;
+  background-color: #303030;
+  border-radius: 3px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+.addButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: .8em auto 0;
+  padding: 0.5rem 0;
+  width: 90%;
+  font-family: Helvetica, serif;
+
+  font-size: 0.9rem;
+}
+
+.select {
+  margin-bottom: 3em;
+  font-family: Helvetica, serif;
+}
+
+.selectTitle {
+  margin: 2em 0 .8em;
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-family: Helvetica, serif;
+}
+
+.noScrollBar {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 60px;
+  overflow-y: scroll;
+  z-index: 2;
+}
