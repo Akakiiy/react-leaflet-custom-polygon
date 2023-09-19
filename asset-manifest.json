@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-leaflet-custom-polygon/static/css/main.470c99fb.css",
+    "main.js": "/react-leaflet-custom-polygon/static/js/main.785369ff.js",
+    "static/media/spritesheet.svg": "/react-leaflet-custom-polygon/static/media/spritesheet.a4e0eb7ad904a4858361.svg",
+    "index.html": "/react-leaflet-custom-polygon/index.html",
+    "main.470c99fb.css.map": "/react-leaflet-custom-polygon/static/css/main.470c99fb.css.map",
+    "main.785369ff.js.map": "/react-leaflet-custom-polygon/static/js/main.785369ff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.470c99fb.css",
+    "static/js/main.785369ff.js"
+  ]
+}
